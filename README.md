@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-TBA
+[Social Media App](https://fierce-sands-66564.herokuapp.com/users/sign_in)
 
 
 ## Getting Started
@@ -63,31 +63,24 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
-
-### Deployment
-
-TBA
-
 ## Authors
 
-TBA
+👤 **Paul Clue**
+
+- GitHub: [@PaulClue](https://github.com/Paul-Clue)
+- LinkedIn: [Paul Clue](https://www.linkedin.com/in/paul-clue/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/microverseinc/ror-social-scaffold/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-TBA
 
 ## 📝 License
 
-TBA
 
