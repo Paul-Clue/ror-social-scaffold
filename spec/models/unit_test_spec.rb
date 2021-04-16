@@ -1,52 +1,5 @@
 require 'rails_helper'
 
-# RSpec.describe User, type: :model do
-#   it 'has none to begin with' do
-#     expect(User.count).to eq 0
-#   end
-
-#   it 'has one after adding one' do
-#     User.create(name: C , email: C@gmail.com, password: 123456, password_confirmation: 123456)
-#     expect(User.count).to eq 1
-#   end
-
-#   it 'has none after one was created in a previous example' do
-#     expect(User.count).to eq 0
-#   end
-# end
-
-# RSpec.describe Attendance, type: :model do
-#   it { should belong_to(:user) }
-#   it { should belong_to(:event) }
-# end
-
-# RSpec.describe Event, type: :model do
-#   it { should have_many(:attendances) }
-#   it { should have_many(:attendees) }
-#   it { should belong_to(:creator) }
-# end
-
-# RSpec.describe User, type: :model do
-#   it { should have_many(:created_events) }
-#   it { should have_many(:attendances) }
-#   it { should have_many(:attended_events) }
-# end
-
-# RSpec.describe 'Sign in test', type: :feature do
-#   before :each do
-#     User.create(username: 'carlos')
-#   end
-
-#   it 'signs me in' do
-#     visit login_path
-#     within('.login-form') do
-#       fill_in 'Username', with: 'carlos'
-#     end
-#     click_button 'Log in'
-#     expect(current_path).to eq('/users/1')
-#   end
-# end
-
 RSpec.describe 'Sign up test', type: :feature do
   it 'create new account' do
     visit new_user_registration_path
